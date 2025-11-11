@@ -1,0 +1,14 @@
+# Ignore specific files
+bottest.py
+input.py
+need.txt
+data/events.json
+data/sources.json
+# Ignore data folder (tracked files must be removed from index if already committed)
+data/
+
+# Ignore virtual environment
+.venv/
+bot/__pycache__/
+# Ignore Python cache
+__pycache__/

@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Báo Dân Trí",
+    "type": "news",
+    "url": "https://dantri.com.vn/thoi-su/moi-truong.htm"
+  },
+  {
+    "name": "VnExpress",
+    "type": "news",
+    "url": "https://vnexpress.net/thoi-su/giao-thong"
+  },
+  {
+    "name": "Bình Định",
+    "type": "facebook",
+    "url": "https://www.facebook.com/groups/210229812344890/"
+  },
+    {
+        "name": "Hồ Chí Minh",
+        "type": "facebook",
+        "url": "https://www.facebook.com/search/top?q=h%E1%BB%93%20ch%C3%AD%20minh&locale=vi_VN"
+    },
+    {
+        "name": "Hà Nội",
+        "type": "facebook",
+        "url": "https://www.facebook.com/search/top?q=h%C3%A0%20n%E1%BB%99i&locale=vi_VN"
+    },
+    {
+        "name": "Đà Nẵng",
+        "type": "facebook",
+        "url": "https://www.facebook.com/search/top?q=%C4%91%C3%A0%20n%E1%BA%B5ng&locale=vi_VN"
+    },
+    {
+        "name": "Bình Định",
+        "type": "facebook",
+        "url": "https://www.facebook.com/DinhKoutVn"
+    },
+    {
+        "name": "Hải Phòng",
+        "type": "facebook",
+        "url": "https://www.facebook.com/search/top?q=h%E1%BA%A3i%20ph%C3%B2ng&locale=vi_VN"
+    },
+    {
+        "name": "Khánh Hòa",
+        "type": "facebook",
+        "url": "https://www.facebook.com/truyenhinhkhanhhoa?locale=vi_VN"
+    },
+    {
+        "name": "Quảng Ninh",
+        "type": "facebook",
+        "url": "https://www.facebook.com/search/top?q=qu%E1%BA%A3ng%20ninh&locale=vi_VN"
+    },
+    {
+        "name": "Nghệ An",
+        "type": "facebook",
+        "url": "https://www.facebook.com/search/top?q=ngh%E1%BB%87%20an&locale=vi_VN"
+    },
+    {
+        "name": "Thừa Thiên Huế",
+        "type": "facebook",
+        "url": "https://www.facebook.com/search/top?q=th%E1%BB%ABa%20thi%C3%AAn%20hu%E1%BA%BF&locale=vi_VN"
+    },
+    {
+        "name": "Tiền Giang",
+        "type": "facebook",
+        "url": "https://www.facebook.com/search/top?q=ti%E1%BB%81n%20giang&locale=vi_VN"
+    },
+    {
+        "name": "An Giang",
+        "type": "facebook",
+        "url": "https://www.facebook.com/search/top?q=an%20giang&locale=vi_VN"
+    },
+    {
+        "name": "Đồng Nai",
+        "type": "facebook",
+        "url": "https://www.facebook.com/search/top?q=%C4%91%E1%BB%93ng%20nai&locale=vi_VN"
+    }
+
+]

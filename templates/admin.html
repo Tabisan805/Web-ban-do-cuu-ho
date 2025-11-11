@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Hệ thống cứu hộ khẩn cấp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/js/map.js">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+</head>
+<body>
+  <header>
+    <h1>🚨 Hệ thống cứu hộ khẩn cấp</h1>
+    <div class="controls">
+      <label for="citySelect">Khu vực: </label>
+      <select id="citySelect" onchange="loadEvents()">
+        <option value="">Tất cả</option>
+        <option value="TP.HCM">TP.HCM</option>
+        <option value="Hà Nội">Hà Nội</option>
+        <option value="Đà Nẵng">Đà Nẵng</option>
+        <option value="Cần Thơ">Cần Thơ</option>
+      </select>
+      <button id="toggleListBtn" onclick="toggleList()">📋 Danh sách sự cố</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="table-container" class="hidden">
+      <table id="eventTable">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Tên</th>
+            <th>Loại</th>
+            <th>Địa chỉ</th>
+            <th>Thời gian</th>
+          </tr>
+        </thead>
+        <tbody id="eventBody"></tbody>
+      </table>
+    </div>
+
+    <div id="map"></div>
+
+    <div id="infoPanel" class="hidden">
+      <button id="closeInfo" onclick="closeInfo()">✖</button>
+      <h2 id="infoName">Tên sự cố</h2>
+      <p><b>Loại:</b> <span id="infoType"></span></p>
+      <p><b>Địa chỉ:</b> <span id="infoAddress"></span></p>
+      <p><b>Thời gian:</b> <span id="infoTime"></span></p>
+      <p><b>Mô tả:</b> <span id="infoDesc">Không có</span></p>
+      <p><b>Nguồn:</b> <span id="infoSource"></span></p>
+      <p><b>Liên kết:</b> <span id="infoLink"></span></p>
+
+
+    </div>
+  </main>
+
+  <footer>© 2025 - Dự án bản đồ cứu hộ khẩn cấp</footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+</body>
+</html>
